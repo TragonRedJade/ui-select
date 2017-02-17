@@ -265,6 +265,6 @@ body > .ui-select-bootstrap.open {
 }
 
 .ui-select-placeholder {
-  font-weight: lighter;
+  font-weight: normal;
   color: #aaa;
 }

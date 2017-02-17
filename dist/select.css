@@ -1,7 +1,7 @@
 /*!
  * ui-select
  * http://github.com/angular-ui/ui-select
- * Version: 0.19.6 - 2017-02-17T01:39:10.669Z
+ * Version: 0.19.6 - 2017-02-17T02:00:23.047Z
  * License: MIT
  */
 
@@ -30,110 +30,6 @@
   background-color: #f5f5f5;
 }
 
-/* Select2 theme */
-
-/* Mark invalid Select2 */
-.ng-dirty.ng-invalid > a.select2-choice {
-    border-color: #D44950;
-}
-
-.select2-result-single {
-  padding-left: 0;
-}
-
-.select2-locked > .select2-search-choice-close{
-  display:none;
-}
-
-.select-locked > .ui-select-match-close{
-    display:none;
-}
-
-body > .select2-container.open {
-  z-index: 9999; /* The z-index Select2 applies to the select2-drop */
-}
-
-/* Handle up direction Select2 */
-.ui-select-container[theme="select2"].direction-up .ui-select-match,
-.ui-select-container.select2.direction-up .ui-select-match {
-    border-radius: 4px; /* FIXME hardcoded value :-/ */
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-}
-.ui-select-container[theme="select2"].direction-up .ui-select-dropdown,
-.ui-select-container.select2.direction-up .ui-select-dropdown {
-    border-radius: 4px; /* FIXME hardcoded value :-/ */
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-
-    border-top-width: 1px;  /* FIXME hardcoded value :-/ */
-    border-top-style: solid;
-
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.25);
-
-    margin-top: -4px; /* FIXME hardcoded value :-/ */
-}
-.ui-select-container[theme="select2"].direction-up .ui-select-dropdown .select2-search,
-.ui-select-container.select2.direction-up .ui-select-dropdown .select2-search {
-    margin-top: 4px; /* FIXME hardcoded value :-/ */
-}
-.ui-select-container[theme="select2"].direction-up.select2-dropdown-open .ui-select-match,
-.ui-select-container.select2.direction-up.select2-dropdown-open .ui-select-match {
-    border-bottom-color: #5897fb;
-}
-
-.ui-select-container[theme="select2"] .ui-select-dropdown .ui-select-search-hidden,
-.ui-select-container[theme="select2"] .ui-select-dropdown .ui-select-search-hidden input{
-    opacity: 0;
-    height: 0;
-    min-height: 0;
-    padding: 0;
-    margin: 0;
-    border:0;
-}
-
-/* Selectize theme */
-
-/* Helper class to show styles when focus */
-.selectize-input.selectize-focus{
-  border-color: #007FBB !important;
-}
-
-/* Fix input width for Selectize theme */
-.selectize-control.single > .selectize-input > input {
-  width: 100%;
-}
-
-/* Fix line break when there's at least one item selected with the Selectize theme */
-.selectize-control.multi > .selectize-input > input {
-  margin: 0 !important;
-}
-
-/* Fix dropdown width for Selectize theme */
-.selectize-control > .selectize-dropdown {
-  width: 100%;
-}
-
-/* Mark invalid Selectize */
-.ng-dirty.ng-invalid > div.selectize-input {
-    border-color: #D44950;
-}
-
-/* Handle up direction Selectize */
-.ui-select-container[theme="selectize"].direction-up .ui-select-dropdown {
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.25);
-    margin-top: -2px; /* FIXME hardcoded value :-/ */
-}
-
-.ui-select-container[theme="selectize"] input.ui-select-search-hidden{
-    opacity: 0;
-    height: 0;
-    min-height: 0;
-    padding: 0;
-    margin: 0;
-    border:0;
-    width: 0;
-}
 
 /* Bootstrap theme */
 
@@ -147,8 +43,14 @@ body > .select2-container.open {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
 }
 
+.ui-select-match,
+.ui-select-bootstrap {
+  outline: none;
+}
+
 .ui-select-bootstrap .ui-select-toggle {
   position: relative;
+  padding-top: 13px;
 }
 
 .ui-select-bootstrap .ui-select-toggle > .caret {

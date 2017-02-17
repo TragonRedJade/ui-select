@@ -104,8 +104,8 @@ body > .ui-select-bootstrap.open {
 }
 
 .ui-select-multiple.ui-select-bootstrap {
-  height: auto;
-  padding: 3px 3px 0 3px;
+  height: 45px;
+  padding: 9px;
 }
 
 .ui-select-multiple.ui-select-bootstrap input.ui-select-search {
@@ -117,13 +117,19 @@ body > .ui-select-bootstrap.open {
 }
 
 .ui-select-multiple.ui-select-bootstrap .ui-select-match .close {
-  font-size: 1.6em;
-  line-height: 0.75;
+  font-size: 2.5em;
+  line-height: .3;
+  font-weight: lighter;
 }
 
 .ui-select-multiple.ui-select-bootstrap .ui-select-match-item {
   outline: 0;
   margin: 0 3px 3px 0;
+  height: 24px;
+  font-size: 12px;
+  line-height: 9px;
+  background: #C9C9C9;
+  border: 1px solid #9B9B9B;
 }
 
 .ui-select-multiple .ui-select-match-item {

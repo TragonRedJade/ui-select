@@ -1,7 +1,7 @@
 /*!
  * ui-select
  * http://github.com/angular-ui/ui-select
- * Version: 0.19.6 - 2017-02-17T18:01:21.462Z
+ * Version: 0.19.6 - 2017-02-17T19:04:58.184Z
  * License: MIT
  */
 
@@ -135,7 +135,7 @@ body > .ui-select-bootstrap.open {
   margin: 0 3px 3px 0;
   height: 24px;
   font-size: 12px;
-  line-height: 9px;
+  line-height: 8px;
   background: #C9C9C9;
   border: 1px solid #9B9B9B;
   -webkit-appearance: inherit;

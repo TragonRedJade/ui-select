@@ -40,6 +40,12 @@
   outline: none;
 }
 
+.ui-select-bootstrap .icon-chevron-down {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
 .ui-select-bootstrap .ui-select-toggle {
   position: relative;
   padding-top: 13px;

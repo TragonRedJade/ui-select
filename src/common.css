@@ -60,6 +60,10 @@
   margin-top: -6px;
 }
 
+.ui-select-bootstrap .ui-select-toggle  .icon-close {
+  right: 5px;
+}
+
 /* Fix Bootstrap dropdown position when inside a input-group */
 .input-group > .ui-select-bootstrap.dropdown {
   /* Instead of relative */
@@ -111,7 +115,7 @@ body > .ui-select-bootstrap.open {
 }
 
 .ui-select-multiple.ui-select-bootstrap {
-  height: 45px;
+  min-height: 45px;
   padding: 9px;
 }
 

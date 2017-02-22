@@ -1,7 +1,7 @@
 /*!
  * ui-select
  * http://github.com/angular-ui/ui-select
- * Version: 0.19.6 - 2017-02-17T19:04:58.184Z
+ * Version: 0.19.6 - 2017-02-22T04:00:17.344Z
  * License: MIT
  */
 
@@ -46,6 +46,12 @@
 .ui-select-match,
 .ui-select-bootstrap {
   outline: none;
+}
+
+.ui-select-bootstrap .icon-chevron-down {
+  position: absolute;
+  top: 15px;
+  right: 15px;
 }
 
 .ui-select-bootstrap .ui-select-toggle {

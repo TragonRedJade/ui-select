@@ -16,7 +16,7 @@
            aria-label="{{$select.baseTitle}}"
            ng-class="{'spinner': $select.refreshing}"
            ondrop="return false;">
-    <i class="icon-chevron-down"></i>
+    <i class="icon-chevron-down" ng-click="$select.activate()"></i>
   </div>
   <div class="ui-select-choices"></div>
   <div class="ui-select-no-choice"></div>

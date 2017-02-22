@@ -1,7 +1,7 @@
 /*!
  * ui-select
  * http://github.com/angular-ui/ui-select
- * Version: 0.19.6 - 2017-02-22T16:58:24.905Z
+ * Version: 0.19.6 - 2017-02-22T17:01:51.422Z
  * License: MIT
  */
 
@@ -64,7 +64,7 @@
   position: absolute;
   height: 10px;
   top: 50%;
-  right: 10px;
+  right: 15px;
   margin-top: -6px;
 }
 

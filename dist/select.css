@@ -1,7 +1,7 @@
 /*!
  * ui-select
  * http://github.com/angular-ui/ui-select
- * Version: 0.19.6 - 2017-02-22T16:30:57.612Z
+ * Version: 0.19.6 - 2017-02-22T16:55:44.992Z
  * License: MIT
  */
 
@@ -69,7 +69,7 @@
 }
 
 .ui-select-bootstrap .ui-select-toggle  .icon-close {
-  right: 5px;
+  right: -5px;
 }
 
 /* Fix Bootstrap dropdown position when inside a input-group */
@@ -116,6 +116,7 @@
   max-height: 200px;
   overflow-x: hidden;
   margin-top: -1px;
+  padding: 15px;
 }
 
 body > .ui-select-bootstrap.open {
@@ -131,8 +132,8 @@ body > .ui-select-bootstrap.open {
   background-color: transparent !important; /* To prevent double background when disabled */
   border: none;
   outline: none;
-  height: 1.666666em;
-  margin-bottom: 3px;
+  /*height: 1.666666em;*/
+  margin-top: 2px;
 }
 
 .ui-select-multiple.ui-select-bootstrap .ui-select-match .close {

@@ -1,7 +1,7 @@
 /*!
  * ui-select
  * http://github.com/angular-ui/ui-select
- * Version: 0.19.6 - 2017-02-22T16:17:45.274Z
+ * Version: 0.19.6 - 2017-02-22T16:21:39.796Z
  * License: MIT
  */
 
@@ -59,7 +59,7 @@
   padding-top: 13px;
 }
 
-.ui-select-bootstrap .ui-select-toggle > .caret {
+.ui-select-bootstrap .ui-select-toggle > .icon-chevron-down {
   position: absolute;
   height: 10px;
   top: 50%;
@@ -98,7 +98,7 @@
   text-align: left !important;
 }
 
-.ui-select-bootstrap > .ui-select-match > .caret {
+.ui-select-bootstrap > .ui-select-match > .icon-chevron-down {
   position: absolute;
   top: 45%;
   right: 15px;

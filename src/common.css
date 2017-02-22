@@ -51,7 +51,7 @@
   padding-top: 13px;
 }
 
-.ui-select-bootstrap .ui-select-toggle > .caret {
+.ui-select-bootstrap .ui-select-toggle > .icon-chevron-down {
   position: absolute;
   height: 10px;
   top: 50%;
@@ -90,7 +90,7 @@
   text-align: left !important;
 }
 
-.ui-select-bootstrap > .ui-select-match > .caret {
+.ui-select-bootstrap > .ui-select-match > .icon-chevron-down {
   position: absolute;
   top: 45%;
   right: 15px;

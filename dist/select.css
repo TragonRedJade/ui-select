@@ -1,7 +1,7 @@
 /*!
  * ui-select
  * http://github.com/angular-ui/ui-select
- * Version: 0.19.6 - 2017-03-17T19:36:09.864Z
+ * Version: 0.19.6 - 2017-03-17T19:38:00.727Z
  * License: MIT
  */
 
@@ -63,7 +63,7 @@
 .ui-select-bootstrap .ui-select-toggle > .icon-chevron-down {
   position: absolute;
   height: 10px;
-  top: 50%;
+  top: 18px;
   right: 15px;
   margin-top: -6px;
 }

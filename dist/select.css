@@ -1,7 +1,7 @@
 /*!
  * ui-select
  * http://github.com/angular-ui/ui-select
- * Version: 0.19.6 - 2017-03-02T05:05:55.261Z
+ * Version: 0.19.6 - 2017-03-17T19:36:09.864Z
  * License: MIT
  */
 
@@ -70,6 +70,7 @@
 
 .ui-select-bootstrap .ui-select-toggle  .icon-close {
   right: -5px;
+  top: 5px;
 }
 
 /* Fix Bootstrap dropdown position when inside a input-group */

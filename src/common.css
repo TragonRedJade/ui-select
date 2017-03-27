@@ -40,7 +40,7 @@
   outline: none;
 }
 
-.ui-select-bootstrap .icon-chevron-down {
+.ui-select-bootstrap .icon-down-open-big {
   position: absolute;
   top: 15px;
   right: 15px;
@@ -52,7 +52,7 @@
 }
 
 .ui-select-bootstrap .ui-select-toggle  .icon-close,
-.ui-select-bootstrap .ui-select-toggle > .icon-chevron-down {
+.ui-select-bootstrap .ui-select-toggle > .icon-icon-down-open-big {
   position: absolute;
   height: 10px;
   top: 18px;
@@ -96,7 +96,7 @@
   text-align: left !important;
 }
 
-.ui-select-bootstrap > .ui-select-match > .icon-chevron-down {
+.ui-select-bootstrap > .ui-select-match > .icon-down-open-big {
   position: absolute;
   top: 45%;
   right: 15px;

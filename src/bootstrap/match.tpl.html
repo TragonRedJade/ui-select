@@ -7,7 +7,7 @@
       style="outline: 0;">
     <span ng-show="$select.isEmpty()" class="ui-select-placeholder">{{$select.placeholder}}</span>
     <span ng-hide="$select.isEmpty()" class="ui-select-match-text pull-left" ng-class="{'ui-select-allow-clear': $select.allowClear && !$select.isEmpty()}" ng-transclude=""></span>
-    <i class="icon-chevron-down pull-right" ng-click="$select.toggle($event)" ng-show="$select.isEmpty()"></i>
+    <i class="icon-down-open-big pull-right" ng-click="$select.toggle($event)" ng-show="$select.isEmpty()"></i>
     <a ng-show="$select.allowClear && !$select.isEmpty() && ($select.disabled !== true)" aria-label="{{ $select.baseTitle }} clear" style="margin-right: 10px"
       ng-click="$select.clear($event)" class="btn btn-xs btn-link pull-right">
       <i class="icon-close" aria-hidden="true"></i>

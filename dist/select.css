@@ -1,7 +1,7 @@
 /*!
  * ui-select
  * http://github.com/angular-ui/ui-select
- * Version: 0.19.6 - 2017-03-27T20:10:15.774Z
+ * Version: 0.19.6 - 2017-03-27T20:12:33.445Z
  * License: MIT
  */
 
@@ -50,7 +50,7 @@
 
 .ui-select-bootstrap .icon-down-open-big {
   position: absolute;
-  top: 15px;
+  top: 12px;
   right: 15px;
 }
 

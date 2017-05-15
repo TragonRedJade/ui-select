@@ -1,7 +1,7 @@
 /*!
  * ui-select
  * http://github.com/angular-ui/ui-select
- * Version: 0.19.7 - 2017-04-05T04:59:11.720Z
+ * Version: 0.19.7 - 2017-05-15T19:20:12.332Z
  * License: MIT
  */
 
@@ -56,7 +56,7 @@
 
 .ui-select-bootstrap .ui-select-toggle {
   position: relative;
-  padding-top: 13px;
+  padding-top: 12px;
 }
 
 .ui-select-bootstrap .ui-select-toggle  .icon-close,

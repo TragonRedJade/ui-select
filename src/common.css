@@ -281,3 +281,8 @@ body > .ui-select-bootstrap.open {
   font-weight: normal;
   color: #aaa;
 }
+
+.ui-select-toggle[disabled="disabled"] {
+  background: #f1f1f1;
+  border: none;
+}
